@@ -1,0 +1,122 @@
+export const profiles = [
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Software Engineer with 5 years of experience in full-stack development.",
+    "address": "IMCC, Pune, Maharashtra, India",
+    "role": "Software Engineer",
+    "contact": "+91-9876543210",
+    "email": "aarav.sharma@example.com",
+    "linkedIn": "https://www.linkedin.com/in/aarav-sharma",
+    "interests": ["Coding", "Open Source", "Cricket"]
+  },
+  {
+    "id": 2,
+    "name": "Neha Gupta",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Data Scientist specializing in machine learning and AI.",
+    "address": "Bynry Corporation, Pune, Maharashtra, India",
+    "role": "Data Scientist",
+    "contact": "+91-9123456789",
+    "email": "neha.gupta@example.com",
+    "linkedIn": "https://www.linkedin.com/in/neha-gupta",
+    "interests": ["Artificial Intelligence", "Yoga", "Reading"]
+  },
+  {
+    "id": 3,
+    "name": "Rohan Desai",
+    "photo": "https://via.placeholder.com/150",
+    "des": "UX/UI Designer with a passion for creating intuitive user experiences.",
+    "address": "India Gate, Delhi, India",
+    "role": "UX/UI Designer",
+    "contact": "+91-9988776655",
+    "email": "rohan.desai@example.com",
+    "linkedIn": "https://www.linkedin.com/in/rohan-desai",
+    "interests": ["Design", "Photography", "Travel"]
+  },
+  {
+    "id": 4,
+    "name": "Priya Menon",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Product Manager with experience in agile methodologies and project management.",
+    "address": "Ajanta Caves, Sambhaji Nagar, Maharashtra, India",
+    "role": "Product Manager",
+    "contact": "+91-9876501234",
+    "email": "priya.menon@example.com",
+    "linkedIn": "https://www.linkedin.com/in/priya-menon",
+    "interests": ["Agile Development", "Cooking", "Movies"]
+  },
+  {
+    "id": 5,
+    "name": "Arjun Kapoor",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Front-end Developer with a focus on React and modern web technologies.",
+    "address": "Silicon Valley, US",
+    "role": "Front-end Developer",
+    "contact": "+1-408-555-1234",
+    "email": "arjun.kapoor@example.com",
+    "linkedIn": "https://www.linkedin.com/in/arjun-kapoor",
+    "interests": ["React", "Hiking", "Video Games"]
+  },
+  {
+    "id": 6,
+    "name": "Kavya Iyer",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Back-end Developer experienced in Node.js and database management.",
+    "address": "Silicon Valley, US",
+    "role": "Back-end Developer",
+    "contact": "+1-650-555-5678",
+    "email": "kavya.iyer@example.com",
+    "linkedIn": "https://www.linkedin.com/in/kavya-iyer",
+    "interests": ["Node.js", "Database Management", "Running"]
+  },
+  {
+    "id": 7,
+    "name": "Anil Mehta",
+    "photo": "https://via.placeholder.com/150",
+    "des": "DevOps Engineer skilled in CI/CD pipelines and cloud infrastructure.",
+    "address": "Panjim, Goa, India",
+    "role": "DevOps Engineer",
+    "contact": "+91-9988007766",
+    "email": "anil.mehta@example.com",
+    "linkedIn": "https://www.linkedin.com/in/anil-mehta",
+    "interests": ["Cloud Computing", "Cycling", "Music"]
+  },
+  {
+    "id": 8,
+    "name": "Maya Verma",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Marketing Specialist with a background in digital marketing and SEO.",
+    "address": "New York City, USA",
+    "role": "Marketing Specialist",
+    "contact": "+1-212-555-7890",
+    "email": "maya.verma@example.com",
+    "linkedIn": "https://www.linkedin.com/in/maya-verma",
+    "interests": ["Digital Marketing", "Cooking", "Yoga"]
+  },
+  {
+    "id": 9,
+    "name": "Karan Singh",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Cybersecurity Analyst focused on protecting systems and data from threats.",
+    "address": "606 Spruce Way, Springfield, IL",
+    "role": "Cybersecurity Analyst",
+    "contact": "+1-217-555-9012",
+    "email": "karan.singh@example.com",
+    "linkedIn": "https://www.linkedin.com/in/karan-singh",
+    "interests": ["Cybersecurity", "Chess", "Gadgets"]
+  },
+  {
+    "id": 10,
+    "name": "Sanya Patel",
+    "photo": "https://via.placeholder.com/150",
+    "des": "Business Analyst with expertise in data analysis and strategic planning.",
+    "address": "707 Redwood Street, Springfield, IL",
+    "role": "Business Analyst",
+    "contact": "+1-217-555-3456",
+    "email": "sanya.patel@example.com",
+    "linkedIn": "https://www.linkedin.com/in/sanya-patel",
+    "interests": ["Data Analysis", "Traveling", "Reading"]
+  }
+];
