@@ -9,7 +9,8 @@ export const profiles = [
     "contact": "+91-9876543210",
     "email": "aarav.sharma@example.com",
     "linkedIn": "https://www.linkedin.com/in/aarav-sharma",
-    "interests": ["Coding", "Open Source", "Cricket"]
+    "interests": ["Coding", "Open Source", "Cricket"],
+    
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@ export const profiles = [
     "contact": "+91-9123456789",
     "email": "neha.gupta@example.com",
     "linkedIn": "https://www.linkedin.com/in/neha-gupta",
-    "interests": ["Artificial Intelligence", "Yoga", "Reading"]
+    "interests": ["Artificial Intelligence", "Yoga", "Reading"],
+    
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@ export const profiles = [
     "contact": "+91-9988776655",
     "email": "rohan.desai@example.com",
     "linkedIn": "https://www.linkedin.com/in/rohan-desai",
-    "interests": ["Design", "Photography", "Travel"]
+    "interests": ["Design", "Photography", "Travel"],
+    
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@ export const profiles = [
     "contact": "+91-9876501234",
     "email": "priya.menon@example.com",
     "linkedIn": "https://www.linkedin.com/in/priya-menon",
-    "interests": ["Agile Development", "Cooking", "Movies"]
+    "interests": ["Agile Development", "Cooking", "Movies"],
+    
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@ export const profiles = [
     "contact": "+1-408-555-1234",
     "email": "arjun.kapoor@example.com",
     "linkedIn": "https://www.linkedin.com/in/arjun-kapoor",
-    "interests": ["React", "Hiking", "Video Games"]
+    "interests": ["React", "Hiking", "Video Games"],
+    
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@ export const profiles = [
     "contact": "+1-650-555-5678",
     "email": "kavya.iyer@example.com",
     "linkedIn": "https://www.linkedin.com/in/kavya-iyer",
-    "interests": ["Node.js", "Database Management", "Running"]
+    "interests": ["Node.js", "Database Management", "Running"],
+    
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@ export const profiles = [
     "contact": "+91-9988007766",
     "email": "anil.mehta@example.com",
     "linkedIn": "https://www.linkedin.com/in/anil-mehta",
-    "interests": ["Cloud Computing", "Cycling", "Music"]
+    "interests": ["Cloud Computing", "Cycling", "Music"],
+    
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@ export const profiles = [
     "contact": "+1-212-555-7890",
     "email": "maya.verma@example.com",
     "linkedIn": "https://www.linkedin.com/in/maya-verma",
-    "interests": ["Digital Marketing", "Cooking", "Yoga"]
+    "interests": ["Digital Marketing", "Cooking", "Yoga"],
+    
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@ export const profiles = [
     "contact": "+1-217-555-9012",
     "email": "karan.singh@example.com",
     "linkedIn": "https://www.linkedin.com/in/karan-singh",
-    "interests": ["Cybersecurity", "Chess", "Gadgets"]
+    "interests": ["Cybersecurity", "Chess", "Gadgets"],
+    
   },
   {
     "id": 10,
@@ -117,6 +126,7 @@ export const profiles = [
     "contact": "+1-217-555-3456",
     "email": "sanya.patel@example.com",
     "linkedIn": "https://www.linkedin.com/in/sanya-patel",
-    "interests": ["Data Analysis", "Traveling", "Reading"]
+    "interests": ["Data Analysis", "Traveling", "Reading"],
+    
   }
 ];

@@ -16,7 +16,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <div className="navbar bg-transparent backdrop-blur-md backdrop-brightness-90 shadow-sm">
+    <div className="navbar z-10 bg-transparent backdrop-blur-md backdrop-brightness-90 shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

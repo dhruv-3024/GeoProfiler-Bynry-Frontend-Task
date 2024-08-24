@@ -10,39 +10,39 @@ const ProfileDetails = () => {
     setProfile(profiles.find((profile) => profile.id === parseInt(id)));
   }, id);
   return (
-    <div className=" h-[100vh]">
-      <div className=" mt-5 mr-5 ml-5 rounded-lg p-5 bg-white">
+    <div className="max-h-screen mb-16">
+      <div className=" mt-5 mx-auto rounded-lg p-5 bg-white max-w-4xl">
         <hr className="h-[2px] bg-gray-600" />
 
-        <div className="sm:flex sm:items-center px-6 py-4 w-[100%]">
+        <div className="sm:flex sm:items-center px-6 py-4 w-full">
           <img
             className="block mx-auto sm:mx-0 sm:flex-shrink-0 h-24 rounded-full"
             src={`/images/profile/${profile.id}.png`}
             alt={`${profile.name}'s photo`}
           />
-          <div className="pl-5 flex flex-col lg:flex-row ">
-            <div>
+          <div className="pl-5 flex flex-col lg:flex-row w-full">
+            <div className="w-full lg:w-2/3">
               <h2 className="text-xl font-bold">{profile.name}</h2>
               <h4 className="font-semibold">{profile.role}</h4>
               <p className="text-gray-600">{profile.des}</p>
             </div>
-            <div className="lg:ml-32 pr-0">
+            <div className="lg:ml-32 mt-4 lg:mt-0 w-full lg:w-1/3">
               <h2 className="text-lg font-bold">Contact Me</h2>
-              <p className="text-gray-600">
+              <p className="text-gray-600 break-words">
                 <span className="font-semibold text-gray-600">Mobile : </span>
                 {profile.contact}
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 break-words">
                 <span className="font-semibold text-gray-600">Email : </span>
                 {profile.email}
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 break-words">
                 <span className="font-semibold text-gray-600">LinkedIn : </span>
                 {profile.linkedIn}
               </p>
 
               <p className="text-gray-600">
-                <span className="font-semibold text-gray-600">Address : </span>
+                <span className="font-semibold text-gray-600 break-words">Address : </span>
                 {profile.address}
               </p>
             </div>
@@ -52,7 +52,7 @@ const ProfileDetails = () => {
         {/* lorem text */}
         <div className="mt-4 mb-4">
           <h2 className="text-lg font-bold">About Me</h2>
-          <p>
+          <p className="text-gray-600 break-words">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             consequatur reiciendis possimus quia, nam deserunt. Illo, natus.
             Quos fuga laboriosam assumenda, iste aliquid amet aspernatur
@@ -60,7 +60,7 @@ const ProfileDetails = () => {
             quae iusto modi eaque earum libero deleniti magnam alias quas id
             itaque! Rerum expedita assumenda impedit sit?
           </p>
-          <p>
+          <p className="text-gray-600 break-words">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
             laudantium ducimus! Porro totam quia natus deleniti rem ea vitae
             expedita quis voluptate, recusandae ab aspernatur, in eaque
@@ -73,7 +73,7 @@ const ProfileDetails = () => {
         {/* interest */}
         <div>
           <h2 className="text-lg font-bold">My Interests</h2>
-          <div>
+          <div className="flex flex-wrap mt-2">
             {profile.interests?.map((interest, index) => (
               <span
                 key={index}
