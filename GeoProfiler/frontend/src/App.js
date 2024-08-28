@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App bg-gradient-to-r from-base-300 to-gray-400">
+    <div className="App flex flex-col bg-gradient-to-r from-base-300 to-gray-400">
       <BrowserRouter>
         <Navbar />
         <Routes>

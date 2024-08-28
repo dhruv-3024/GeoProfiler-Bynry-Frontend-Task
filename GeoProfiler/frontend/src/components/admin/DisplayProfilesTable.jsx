@@ -43,13 +43,13 @@ const DisplayProfilesTable = ({ profiles }) => {
                 <td>
                   <div className="flex gap-2">
                     <button
-                      className="btn btn-sm bg-blue-300 hover:bg-blue-400"
+                      className="btn btn-sm border-none bg-blue-300 hover:bg-blue-400"
                       onClick={() =>
                         document.getElementById("edit-modal").showModal()
                       }
                     >
                       {" "}
-                      <IconEdit /> Edit
+                      <IconEdit /> <span className="hidden md:inline">Edit</span>
                     </button>
                     {/* edit modal */}
                     <dialog
@@ -93,11 +93,11 @@ const DisplayProfilesTable = ({ profiles }) => {
                                 className="btn "
                                 onClick={() => editProfile(profile.id)}
                               >
-                                <IconEdit /> Edit
+                                <IconEdit /> <span className="hidden sm:inline">Edit</span>
                               </button>
 
                               <button className="btn hover:bg-red-400">
-                                <IconSquareLetterX /> Close
+                                <IconSquareLetterX /> <span className="hidden sm:inline">Close</span> 
                               </button>
                             </div>
                           </form>
@@ -105,11 +105,11 @@ const DisplayProfilesTable = ({ profiles }) => {
                       </div>
                     </dialog>
                     <button
-                      className="btn btn-sm bg-red-300 hover:bg-red-400"
+                      className="btn btn-sm border-none bg-red-300 hover:bg-red-400"
                       onClick={() => deleteProfile(profile.id)}
                     >
                       {" "}
-                      <IconTrash /> Delete
+                      <IconTrash /> <span className="hidden sm:inline">Delete</span>
                     </button>
                   </div>
                 </td>

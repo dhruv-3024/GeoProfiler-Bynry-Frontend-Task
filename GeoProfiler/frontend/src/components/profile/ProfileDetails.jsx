@@ -10,7 +10,7 @@ const ProfileDetails = () => {
     setProfile(profiles.find((profile) => profile.id === parseInt(id)));
   }, id);
   return (
-    <div className="max-h-screen mb-16">
+    <div className=" mb-16">
       <div className=" mt-5 mx-auto rounded-lg p-5 bg-white max-w-4xl">
         <hr className="h-[2px] bg-gray-600" />
 
